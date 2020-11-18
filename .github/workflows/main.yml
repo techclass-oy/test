@@ -15,4 +15,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "farhad-heroku-example-2"
           heroku_email: "farhad.e@outlook.com"
+          branch: "master"
           usedocker: true
