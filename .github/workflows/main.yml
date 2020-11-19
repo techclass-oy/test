@@ -17,3 +17,5 @@ jobs:
           heroku_email: "farhad.e@outlook.com"
           branch: "master"
           usedocker: true
+        env:
+          ASPNETCORE_URLS: "http://*:$PORT"
