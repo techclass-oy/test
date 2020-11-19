@@ -9,4 +9,4 @@ RUN dotnet publish -c Release -o out
 
 EXPOSE 5000
 
-ENTRYPOINT dotnet out/DockerSample.dll
+ENTRYPOINT ["dotnet","out/DockerSample.dll"]
