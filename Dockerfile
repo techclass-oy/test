@@ -4,7 +4,8 @@ WORKDIR /app
 COPY . ./
 
 WORKDIR /app/
-ENV ASPNETCORE_URLS http://*:$PORT
+ENV PORT 5000
+
 RUN dotnet restore
 RUN dotnet publish -c Release -o out
 
